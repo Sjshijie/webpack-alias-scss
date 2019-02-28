@@ -1,0 +1,6 @@
+
+$font-size:58.5938;
+
+@function rem($px){
+    @return $px/$font-size*1rem
+}
